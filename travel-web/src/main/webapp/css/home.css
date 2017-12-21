@@ -1,0 +1,989 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #07253F;
+    font-size: 15px;
+	margin:0px;
+	/*line-height: 1.428571;*/
+	background-repeat : no-repeat;
+	background-size : cover;
+	background-attachment : fixed;
+}
+/*HOME FLIGHT*/
+body.bg-home{
+//background-image:url('https://www.walldevil.com/wallpapers/a44/wallpaper-widescreen-perfect-hotel-wallpapers-background-paper.jpg');
+background-image:url('../images/bg-home-2.jpg');
+}
+body.flight-img-home{
+	background-image:url('../images/background-flight.jpg') !important;
+}
+body.accomodation-img-home{
+	background-image:url('http://www.kubipet.com/data/out/87/iwp779936277-hotel-wallpapers.jpg') !important;
+}
+
+/*LOGIN*/
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.95);
+	right : -1px;
+}
+
+#login-dp .bottom {
+    background-color: rgba(255,255,255,.8);
+    border-top: 1px solid #ddd;
+    clear: both;
+    padding: 14px;
+}
+
+#login-dp .social-buttons {
+    margin: 12px 0;
+}
+
+#login-dp .social-buttons a {
+    width: 49%;
+}
+.btn-fb {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+/*NAV*/
+
+.navbar-inverse .navbar-brand {
+    color: #ddd;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #A28753;
+	padding-bottom : 17px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #A28753;
+	padding-bottom : 17px;
+}
+
+.navbar-inverse .navbar-nav >li>a, .navbar-inverse .navbar-text {
+    color: #ddd;
+	font-weight: 550;
+}
+
+.search-section .nav-tabs {
+    border-bottom: none;
+}
+
+.search-section .nav-tabs .active {
+    position: relative;
+}
+
+.search-section .nav-tabs > li {
+    margin-bottom: 0px;
+}
+
+.search-section .nav-tabs > li.active > a, .search-section .nav-tabs > li.active > a:focus, .search-section .nav-tabs > li.active > a:hover {
+    color: #ffffff;
+    background: #A28753 !important;
+    border: 1px solid transparent;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #0A3152;
+}
+
+.search-section .nav > li > a {
+    padding: 15px;
+}
+
+.search-section .nav-tabs > li > a {
+    color: #ffffff;
+    background: rgba(10, 49, 82, 0.4);
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 2px 2px 0 0;
+    margin-right: 4px;
+	transition : all 0.3s ease;
+}
+
+.search-section .nav-tabs > li.active > a, 
+.search-section .nav-tabs > li.active > a:focus, 
+.search-section .nav-tabs > li.active > a:hover, 
+.search-section .nav-tabs > li > a:hover{
+  background: #A28753 !important;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition : all 0.3s ease;
+}
+
+/*NAV CONTAINER*/
+.search-section .tab-content {
+    color: #07253F;
+    background: #fff;
+    padding: 30px 15px;
+}
+
+.search-section .search-col-padding {
+    padding-top: 15px;
+}
+ 
+.search-section .product-search-title, 
+.work-step i, .pricing-info span, .post-title p, 
+.main-footer .links h4, 
+.main-footer .contact-box h4, .we-accept h4, .main-footer .about-box h3, .light-menu .navbar-nav > li > a:hover {
+    color: #A28753 !important;
+}
+
+.search-section .product-search-title {
+    font-size: 18px;
+    display: block;
+    font-weight: 80;
+    text-transform: uppercase;
+}
+
+/* FORM*/
+.search-section .form-control {
+    background-color: transparent;
+    border: 1px solid #BEC4C8;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #07253F;
+    display: block;
+    font-size: 15px;
+    height: 40px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.selectpicker {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #BEC4C8;
+    border-radius: 0;
+    height: 40px;
+    padding-right:50px;
+}
+
+.search-button {
+    background: #A28753;
+    border-radius: 0;
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #fff;
+	font-weight: 100;
+    transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.search-button : hover{
+  color:#fff;
+  font-weight: 100;
+}
+
+.search-button:hover {
+    background: #76633e;
+    color: #fff;
+	font-weight: 100;	
+}
+/*CARROUSEL*/
+
+
+/*FOOTER*/
+.main-footer-nav {
+    padding: 10px 0px;
+    background: rgba(10, 49, 82, 0.5);
+    color: #ddd;
+    position: absolute;
+	bottom: 0;
+	font-weight:bold;
+}
+
+.main-footer-nav ul li {
+    display: inline;
+    margin: 0px 5px;
+}
+
+.main-footer-nav ul li a, .main-footer-nav ul li a:hover{
+    color:#ddd;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.main-footer-nav p,ul{
+margin: 10px 0 10px;
+}
+
+/*PAGE*/
+.page-title {
+    padding: 15px 0px 60px 0px;;
+    background-attachment: fixed;
+    background-size: contain;
+    color: #ffffff;
+}
+.contact-address {
+    background: #A28753;
+	color: #ffffff;
+    padding: 30px 0px;
+}
+.contact-address i {
+    font-size: 50px;
+    margin: 15px 0px;
+}
+.contact-address a {
+    color: #ffffff;
+	text-decoration : none;
+}
+.clear-padding {
+    padding: 0;
+}
+.contact-map {
+    border: 0px;
+    width: 100%;
+    height: 500px;
+}
+.contact-form {
+    padding: 30px 15px;
+}
+.contact-form h2 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.contact-form .form-control {
+    height: 40px;
+    border-radius: 0px;
+    margin: 10px 0px;
+}
+.submit-review {
+    background: #A28753 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+	font-weight: 500;
+    margin-top: 20px;
+    padding: 10px 50px;
+}
+.submit-review,.load-more a:hover, .submit-review:hover, .product-brief-info .price-detail {
+    background: #A28753;
+	color:white;
+}
+
+/*recherche flight*/
+.single-search h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+	color : white;
+}
+.search-section label {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+	color:black;
+}
+.label-search{
+	color:white !important;
+}
+.flight-search .hasTextpicker::placeholder, .hasDatepicker::placeholder{
+    color:white;
+}
+.select-color{
+	color:white;
+}
+.single-search {
+    padding: 0px 0px 40px 0px;
+    color: #fff;
+}
+/**/
+.work-row {
+    padding: 30px 0px;
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+}
+.work-step {
+    position: relative;
+    margin-bottom: 20px;
+}
+.work-step i {
+    border-radius: 50%;
+    background: #A28753 !important;
+    color: #fff !important;
+    font-size: 34px;
+    height: 80px;
+    padding: 23px;
+    width: 80px;
+    position: relative;
+}
+.work-step h5 {
+    font-weight: 800;
+    margin: 30px 0px 10px;
+    letter-spacing: 1px;
+	font-size:15px;
+}
+.work-step .third-step:before {
+    content: "";
+    width: 70%;
+    height: 2px;
+    background: #A28753;
+    position: absolute;
+    left: -35%;
+    top: 30%;
+    padding-right: 6px;
+}
+.work-step .first-step:after {
+    content: "";
+    width: 70%;
+    height: 2px;
+    background: #A28753;
+    position: absolute;
+    right: -35%;
+    top: 30%;
+    padding-right: 6px;
+}
+/**/
+#top-flight-row {
+    background: url('http://limpidthemes-demo.com/Themeforest/html/cruise-demo/dark/assets/images/plane.jpg');
+    background-attachment: fixed;
+	background-size:cover;
+}
+.top-flight {
+    padding: 60px 0px;
+    color: #fff;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.section-title h2 {
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.section-title h4 {
+    font-weight: bold;
+    position: relative;
+}
+.tour-grid img {
+    max-width: 100%;
+    position: relative;
+}
+.tour-grid .tour-brief h4 i {
+    margin-right: 5px;
+}
+.tour-grid .tour-brief {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(10, 49, 82, 0.8);
+    width: 100%;
+    padding: 15px;
+    z-index: 4;
+}
+.tour-grid:hover .tour-detail {
+    opacity: 1;
+}
+.tour-grid .tour-detail {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    padding-top: 10%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+.tour-grid .tour-detail a {
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 5px 20px;
+	    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+	text-decoration: none;
+}
+.tour-grid .tour-detail a:hover{
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    background: rgb(162, 135, 83);
+	border: 2px solid transparent;
+	text-decoration: none;
+}
+.booking-tab {
+    background: #e6e6e6;
+    padding: 30px 0px;
+	margin:0px;
+}
+.booking-tab .nav-tabs {
+    border-bottom: none;
+}
+.booking-tab .nav-tabs > li.active > a i, .booking-tab .nav-tabs > li > a i {
+    display: block;
+    padding: 5px;
+    font-size: 30px;
+	color: #07253F;
+}
+.booking-tab .nav-tabs > li.active > a, .booking-tab .nav-tabs > li.active > a:focus, .booking-tab .nav-tabs > li.active > a:hover {
+    border: none;
+    background-color: #e6e6e6;
+}
+.booking-tab .nav-tabs > li.active > a span, .booking-tab .nav-tabs > li > a span {
+    font-size: 20px;
+	color: #07253F;
+}
+.booking-tab .nav-tabs .active:after {
+    background: #A28753 none repeat scroll 0 0;
+    content: "";
+    height: 5px;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 50px;
+}
+/*booking detail*/
+.booking-detail {
+    padding: 60px 0px;
+	background-color:white;
+}
+#review-booking .flight-list-v2 {
+    margin: 0px;
+}
+.flight-list-v2 {
+    margin: 40px 15px 0px 15px;
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 0px 5px #e6e6e6;
+}
+.flight-list-v2 .airline {
+    padding: 20px 0px;
+}
+.flight-list-v2 img {
+    max-width: 100%;
+}
+.flight-list-v2 .airline h6 {
+    margin-top: 5px;
+}
+.flight-list-v2 h3 {
+    font-weight: bold;
+    margin: 20px 0px 0px;
+}
+.flight-list-v2 .bold {
+    font-weight: normal;
+}
+.flight-list-v2 h5 {
+    color: #0A3152;
+    font-size: 13px;
+    margin: 5px 0px;
+}
+.stop-duration {
+    padding: 15px;
+}
+.flight-direction {
+    border: 1px solid #e6e6e6;
+    position: relative;
+    margin-top: 15px;
+    //z-index: -1;
+}
+.flight-direction:before {
+    background: #e6e6e6 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #0A3152;
+    content: "";
+    height: 15px;
+    position: absolute;
+    left: -2px;
+    top: -7px;
+    width: 15px;
+}
+.flight-direction:after {
+    background: #e6e6e6 none repeat scroll 0 0 !important;
+    border-radius: 50%;
+    color: #0A3152;
+    content: "";
+    height: 15px;
+    position: absolute;
+    right: -2px;
+    top: -7px;
+    width: 15px;
+}
+.flight-list-v2 .stop {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #e6e6e6;
+    margin-top: -8px;
+    margin-left: 47%;
+}
+.flight-list-v2 .stop-box {
+    padding: 8px 10px;
+    margin-left: 36%;
+    width: 70px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    margin-top: 6px;
+    text-align: center;
+	right:3px;
+}
+.flight-list-v2 .stop-box:before {
+    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    content: "";
+    background: #ffffff;
+    height: 10px;
+    left: 42%;
+    position: absolute;
+    top: -6px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 10px;
+}
+.flight-list-v2 .duration {
+    margin-top: 5px;
+}
+.flight-list-footer {
+    overflow: hidden;
+    background: #f7f7f7;
+    padding: 10px 0px;
+    color: #0A3152;
+}
+.flight-list-footer span {
+    padding: 0px 10px;
+    font-size: 13px;
+}
+.flight-list-footer .refund {
+    color: #F2676B;
+    border-left: 1px solid #0A3152;
+    border-right: 1px solid #0A3152;
+}
+.flight-list-footer span {
+    padding: 0px 10px;
+    font-size: 13px;
+}
+.flight-list-footer .pull-right a:hover, .flight-list-footer .pull-right a, .booking-form button, .passenger-detail-body button, .paypal-pay a {
+    color: #ffffff;
+    background: #F2676B;
+    padding: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+	text-decoration:none;
+}
+/*LOGIN OU SUBSCRIBE(beta)*/
+.login-box {
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 0px 5px #e6e6e6;
+    margin-top: 40px;
+}
+.login-box h3 {
+    background: #e6e6e6 none repeat scroll 0 0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 10px 20px;
+}
+.booking-form {
+    padding: 0 15px 20px;
+    overflow: hidden;
+}
+.booking-form label {
+    margin-top: 15px;
+}
+.booking-form .form-control {
+    height: 40px;
+    border-radius: 0px;
+}
+.booking-form a {
+    color: #F2676B;
+    margin-top: 5px;
+    display: block;
+	text-decoration:none;
+}
+.booking-form label {
+    margin-top: 15px;
+}
+.booking-form button {
+    background: #A28753 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px 50px;
+}
+/*sidebar*/
+.booking-sidebar .sidebar-item {
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 0px 5px #e6e6e6;
+}
+.booking-sidebar .sidebar-item h4 {
+    background: #e6e6e6 none repeat scroll 0 0;
+    padding: 20px 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.booking-sidebar .sidebar-item h4 i {
+    color: #A28753;
+    margin-right: 10px;
+}
+.booking-sidebar .sidebar-body {
+    padding: 20px;
+}
+.booking-sidebar .sidebar-body .table {
+    margin-bottom: 0px;
+}
+.booking-sidebar .sidebar-body table tr {
+    border-bottom: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+}
+.booking-sidebar .sidebar-body table tr:last-child{
+    border-bottom: 0px;
+}
+.booking-sidebar .sidebar-body table tr:first-child{
+    border-top: 0px;
+}
+.passenger-detail-body label {
+    margin-top: 15px;
+    font-weight: normal;
+}
+.passenger-detail-body .form-control {
+    border-radius: 0px;
+    height: 40px;
+}
+.passenger-detail-body button {
+    background: #A28753;none repeat scroll 0 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px 20px;
+}
+/*paiement*/
+.passenger-detail {
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 0px 5px #e6e6e6;
+}
+.passenger-detail h3 {
+    margin: 0px;
+    padding: 10px 20px;
+    line-height: 1.6;
+    background: #e6e6e6;
+}
+.passenger-detail-body {
+    padding: 20px;
+}
+.saved-card {
+    border: 1px solid #e6e6e6;
+    overflow: hidden;
+    padding: 0px 20px 20px;
+}
+.saved-card label {
+    font-weight : normal;
+	margin-top: 10px;
+}
+.payment-seperator {
+    border-top: 1px solid #e6e6e6;
+    margin: 40px 0px 30px;
+    position: relative;
+}
+.payment-seperator:after {
+    background: #e6e6e6 none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "Or";
+    left: 45%;
+    padding: 12px 15px;
+    position: absolute;
+    top: -23px;
+    z-index: 1;
+}
+
+/** FLIGHT LIST **/
+.modify-search {
+    padding: 30px 0px 50px 0px;
+    background-attachment: fixed;
+}
+.modify-search label {
+    color: #ffffff;
+}
+.modify-search .input-group-addon {
+    background: #A28753;
+    border: none;
+    border-radius: 0;
+}
+.modify-search .input-group-addon i {
+    color: #ffffff;
+}
+.modify-search .form-control {
+    border-radius: 0;
+    height: 45px;
+    padding: 10px;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100%;
+}
+.modify-search .modify-search-button:hover{
+    margin-top:15px;
+	background: #A28753;
+    color: #fff;
+	text-decoration:none;
+	margin-top: 25px;
+}
+.modify-search .modify-search-button {
+	font-weight:400;
+    height: 45px;
+    background: #A28753;
+    color: #ffffff;
+    border-radius: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    margin-top: 25px;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+/*filtre*/
+.filter-head {
+    color: #fff;
+    background: #A28753;
+    padding: 15px;
+}
+.filter-head h4 {
+    line-height: 1.5;
+    margin: 20px 0px;
+    position: relative;
+}
+.filter-area {
+    background: #fff;
+    box-shadow: 0px 2px 5px #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    color: #172732;
+	padding: 15px;
+    margin-bottom: 45px;
+}
+.filter:first-child {
+    border-top: none;
+    padding: 15px 0px 30px;
+}
+.filter-area h5 {
+    color: #2F7AF8;
+    margin-top: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.filter {
+    border-top: 1px solid #e6e6e6;
+    padding: 30px 0px;
+}
+.name-filter .input-group {
+    margin-top: 20px;
+}
+.filter-area ul {
+    list-style: none;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+.filter-area li {
+    padding: 5px 0px;
+}
+.filter-area li input {
+    margin-right: 10px;
+    margin-top: 0;
+}
+.filter-area .airline-filter img {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 5px;
+}
+.filter-area .stop-filter .btn-primary {
+    background: #00ADEF;
+    border: transparent;
+    border-radius: 0;
+}
+.lowest-fare-slider {
+    margin-top: 40px;
+}
+.lowest-fare-slider .owl-carousel .owl-item {
+    background: #f7f7f7;
+    padding-bottom: 10px;
+}
+.lowest-fare-slider h5 {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.lowest-fare-slider span {
+    font-size: 13px;
+}
+.lowest-fare-slider .owl-carousel .owl-controls .owl-nav .owl-prev {
+    left: 0;
+}
+.lowest-fare-slider .owl-carousel .owl-controls .owl-nav .owl-next {
+    right: 0;
+}
+.lowest-fare-slider .owl-theme .owl-nav [class*="owl-"] {
+    //background: #F2676B;
+    padding: 5px 3px;
+    margin: 0;
+    border-radius: 0;
+}
+.lowest-fare-slider .owl-carousel .owl-controls .owl-nav .owl-prev, .lowest-fare-slider .owl-carousel .owl-controls .owl-nav .owl-next {
+    position: absolute;
+    top: 21%;
+}
+.lowest-fare-slider .owl-theme .owl-nav [class*="owl-"] {
+    background: #A28753;
+	color:white;
+    padding: 5px 3px;
+    margin: 0;
+    border-radius: 0;
+}
+.sort-area .sort:first-child {
+    border-left: 1px solid #e6e6e6;
+	padding : 0px;
+}
+.flight-listing .sort {
+    margin-top: 30px;
+}
+.sort-area .sort {
+    margin-top: 40px;
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+	padding:0px;
+}
+.sort-area .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    color: #07253F;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100%;
+}
+.sort-area .custom-select-button {
+    border: none;
+}
+.flight-list-view {
+    margin: 40px 15px 0px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 0px 5px #e6e6e6;
+    overflow: hidden;
+}
+.flight-list-view .airline-logo {
+    padding: 33px 0px;
+    border-right: 1px solid #e6e6e6;
+}
+.flight-list-view .flight-desc {
+    border-right: 1px solid #e6e6e6;
+    min-height: 123px;
+}
+.flight-list-view .take-off {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 5px 0px;
+}
+.flight-list-view .flight-desc h4 i {
+    margin-right: 5px;
+    color: #A28753;
+}
+.flight-list-view .flight-desc h5 {
+    font-size: 13px;
+}
+.flight-list-view .landing {
+    padding: 5px 0px 8px;
+}
+.flight-list-view .flight-desc {
+    border-right: 1px solid #e6e6e6;
+    min-height: 123px;
+}
+.flight-list-view .flight-desc .duration {
+    padding: 40px 0px 41px;
+}
+.flight-list-view .flight-desc h4 i {
+    margin-right: 5px;
+    color: #A28753;
+}
+.flight-list-view .price {
+    padding: 10px 0px;
+}
+.flight-list-view .price h4 {
+    font-weight: bold;
+}
+.flight-list-view .book {
+    padding: 0px 0px 0px;
+}
+.flight-list-view .book a {
+    font-weight: bold;
+    color: #ffffff;
+    background: #A28753;
+    padding: 8px 20px;
+    display: inline-block;
+	text-decoration:none;
+}
+.flight-list-view h6 {
+    margin-bottom: 0px;
+}
+.booking-summary .fa-star {
+    color: #E1974F;
+}
+.booking-summary .loc {
+    color: #00adef;
+}
+.date {
+    border: 1px solid #e6e6e6;
+    max-width: 100px;
+	margin-bottom:20px
+}
+.date h2{
+	margin-top:5px;
+}
+.date h5{
+	margin:5px 0 8px;
+}.date h6{
+	margin:5px 0;
+}
+.search-section .input-group-addon {
+    background: transparent;
+    color: #BEC4C8;
+    border-top: 1px solid #BEC4C8;
+    border-right: 1px solid #BEC4C8;
+    border-bottom: 1px solid #BEC4C8;
+    border-radius: 0;
+}
+.flight-list-view .book button {
+    font-weight: bold;
+    color: #ffffff;
+    background: #A28753;
+    padding: 8px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
