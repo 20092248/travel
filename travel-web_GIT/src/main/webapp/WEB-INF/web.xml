@@ -1,0 +1,91 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <filter>
+  	<filter-name>LoginFilter</filter-name>
+  	<filter-class>LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>LoginFilter</filter-name>
+  	<url-pattern>/compte/*</url-pattern>
+  </filter-mapping>
+  
+  <listener>
+  	<listener-class>TravelSessionListener</listener-class>
+  </listener>
+  
+  <servlet>
+  	<servlet-name>GetImageServlet</servlet-name>
+  	<display-name>GetImageServlet</display-name>
+  	<description></description>
+  	<servlet-class>GetImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FindFlight</servlet-name>
+  	<display-name>FindFlight</display-name>
+  	<description></description>
+  	<servlet-class>FindFlight</servlet-class>
+  </servlet>
+   <servlet>
+  	<servlet-name>catalogue</servlet-name>
+  	<display-name>catalogue</display-name>
+  	<description></description>
+  	<servlet-class>catalogue</servlet-class>
+  </servlet>
+   <servlet>
+   	<servlet-name>MonCompte</servlet-name>
+   	<display-name>MonCompte</display-name>
+   	<description></description>
+   	<servlet-class>MonCompte</servlet-class>
+   </servlet>
+   <servlet>
+   	<servlet-name>GetFlightNo</servlet-name>
+   	<display-name>GetFlightNo</display-name>
+   	<description></description>
+   	<servlet-class>GetFlightNo</servlet-class>
+   </servlet>
+   <servlet>
+   	<servlet-name>TopAirline</servlet-name>
+   	<display-name>TopAirline</display-name>
+   	<description></description>
+   	<servlet-class>TopAirline</servlet-class>
+   </servlet>
+   <servlet>
+   	<servlet-name>IndexServlet</servlet-name>
+   	<display-name>IndexServlet</display-name>
+   	<description></description>
+   	<servlet-class>IndexServlet</servlet-class>
+   </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetImageServlet</servlet-name>
+  	<url-pattern>/getimage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>FindFlight</servlet-name>
+  	<url-pattern>/FindFlight</url-pattern>
+  </servlet-mapping> 
+    <servlet-mapping>
+  <servlet-name>catalogue</servlet-name>
+  	<url-pattern>/catalogue</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>MonCompte</servlet-name>
+    	<url-pattern>/compte/MonCompte</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>GetFlightNo</servlet-name>
+    	<url-pattern>/GetFlightNo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>TopAirline</servlet-name>
+    	<url-pattern>/TopAirline</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>IndexServlet</servlet-name>
+    	<url-pattern>/index</url-pattern>
+    </servlet-mapping> 
+</web-app>
